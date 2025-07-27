@@ -13,3 +13,10 @@ resized_img.show()
 cropped_img = img.crop((10,100,100,220))
 
 cropped_img.show()
+
+
+# rotation of image .........................
+
+rotated_img = img.rotate(45)
+
+rotated_img.show()
